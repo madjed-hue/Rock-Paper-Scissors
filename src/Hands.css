@@ -1,0 +1,69 @@
+.hands{
+    width: 467px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    background-image: url('./assets/triangle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.scissors{
+    margin-left: 20px;
+}
+.paper{
+    margin-right: 20px;
+}
+.hands .hand{
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.hands .hand:hover{
+    transform: translateY(-8px);
+}
+
+.contest{
+    width: 900px;
+    display: none;
+    margin-top: 50px;
+}
+.contest img{
+    width: 275px;
+    height: 275px;
+}
+.contest>div{
+    flex: 1;
+}
+.contest h1{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.contest .handImageContainer{
+    display: flex;
+    justify-content: center;
+}
+.referee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.referee h1{
+    font-size: 45px;
+}
+.NewGame{
+    background-color: #fff;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: hsl(229, 25%, 31%);
+    transition: all 0.15s;
+}
+.NewGame:hover{
+    background-color: beige;
+    transform: translate3d(0,-2px,0);
+}
